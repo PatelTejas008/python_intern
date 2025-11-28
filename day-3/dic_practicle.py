@@ -18,7 +18,7 @@ s5=input("Entre the subject name:")
 s6=float(input(f"Entre the marks of {s5}:"))
 
 s7=input("Entre the subject name:")
-s8=float(input("Entre the Maths marks of :"))
+s8=float(input(f"Entre the Maths marks of{s7} :"))
 # print(marksheet.keys[s1]=s2)
 # print(marksheet.keys[s3]=s4)
 # print(marksheet.keys[s5]=s6)

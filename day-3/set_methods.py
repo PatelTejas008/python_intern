@@ -1,20 +1,22 @@
-set={1,3,2,"patel",80.8}
+s={1,3,2,"patel",80.8}
 set2={4,5,6,3,2}
 
-set.add(45)
-print(set)
+s.add(45)
+print(s)
+s.remove(1)
+print(s)
 
-nset=set.copy()
+nset=s.copy()
 print(nset)
 
-print(set2.difference(set))
+print(set2.difference(s))
 
-set2.difference_update(set)
-print(set)
+set2.difference_update(s)
+print(s)
 print(set2)
 
-set.discard(1)
-print(set)
+s.discard(1)
+print(s)
 
 s3={"BMW","Audi","Skoda","Hyundai","land_rover","jaguar","Pagani","Bugati","Rolls_Royls","Dodge(SKT)"}
 print(s3.pop())

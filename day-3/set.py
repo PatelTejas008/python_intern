@@ -4,7 +4,7 @@ s2={(2,3,4,1,"HEllo")}
 
 
 #create empty set 
-# s3=e()
+# s3=set()
 # print(type(e))
 print(type(s1))
 
