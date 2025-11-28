@@ -15,8 +15,8 @@ print(TMOC["Gents"]) # that also same work key name define show value
 print(TMOC.get("kids3")) # if keys not that show nonee
 #print(TMOC["Gents2"])# if keys not that show error  
 r=TMOC.pop("Gents") # removed any specific key /value from dic use this
-# print(r)
-# print(TMOC)
+print(r)
+print(TMOC)
 
 
 # nested dictionary
