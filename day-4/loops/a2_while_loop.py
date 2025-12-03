@@ -1,5 +1,5 @@
 # print 1 to 10 useing while loop
-a=1
-while(a<10):
+a=200000
+while(a>1):
     print(a)
-    a+=1
+    a/=2

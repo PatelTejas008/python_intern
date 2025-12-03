@@ -1,21 +1,3 @@
-# or use in if-else statment 
-# # Animal name find in message               
-c1="dog"
-c2="cat"
-c3="monkey"
-c5="donkey"
-c4="lion"
-
-# Entre animal name
-dot=input("Entre four  animal name :")
-
-#if name in
-if((dot in c1) or (dot in c2) or (c3 in dot) or (c4 in dot)):
-    print("you are lose the Game")
-else:
-    print("you are win game")
-
-
 # and operater use in if-else 
 
 mark1=int(input("Entre the Maths marks:"))

@@ -1,9 +1,9 @@
 hero=["Antman","Superman","Batman","Spiderman","Ironman",""]
 
-name=input("Entre the Hero Name:")
+name=input("Entre the Hero Name:").capitalize()
 print("Your Entred Name:",name)
 
-if(name.capitalize() in hero):
+if(name in hero):
     print("Hero name is in list of hero",name)
 else:
     print("Hero name is not in list",name)

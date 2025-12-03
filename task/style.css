@@ -1,0 +1,106 @@
+
+
+body {
+  background-color:rgb(59, 56, 56);
+color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.google{
+  padding: 30px;
+  width: auto;
+}
+
+
+.maininfo {
+    background-color: black;
+    width: 750px;
+    padding: 80px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    border-radius: 30px;
+  display: flex;
+  gap: 200px;
+}
+
+.logo {
+  width: 50px;
+  margin-top: -40px;
+  margin-bottom: 10px;
+  
+}
+
+.mainsection h1 {
+  font-size: 35px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  margin-left: -10px;
+   color: white;
+
+   
+}
+
+.mainsection p {
+  font-size: 14px;
+  color: white;
+  margin-top: -30px ;
+  margin-left: -5px;
+  
+}
+
+.formsection {
+
+    flex: 1;
+ 
+}
+
+.infoinput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 15px;
+  color:white;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 20px;
+  font-size: 16px;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 8px;
+  color: white;
+}
+
+
+
+.button{
+  display: flex;
+  justify-content: flex-end;
+
+  
+  
+}
+
+button {
+  
+  padding: 20px 40px;
+  margin: 20px;
+  background-color:rgb(171, 171, 222) ;
+  color: black;
+  font-weight: bold;
+  border: none;;
+  border-radius: 60px;
+ font-size: 15px;
+
+}
+
+button:hover {
+  background-color: white;
+}
+

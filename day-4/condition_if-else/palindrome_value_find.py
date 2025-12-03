@@ -18,12 +18,12 @@ if(l1==copylist):
 else:
     print("no that is palidrome")
 
-if(l2==copylist2):
+if(l3==copylist3):
     print ("yes that is palidrome")
 else:
     print("no that is palidrome")
 
-if(l3==copylist3):
+if(l2==copylist2):
     print ("yes that is palidrome")
 else:
     print("no that is palidrome")

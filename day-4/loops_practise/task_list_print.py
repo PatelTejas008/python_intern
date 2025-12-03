@@ -3,6 +3,8 @@ s=0
 while(s<len(name)):
     print(name[s])
     s+=1
+    # if s==4:
+    #  break
 
 
 # t=()

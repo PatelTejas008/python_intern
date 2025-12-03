@@ -1,7 +1,11 @@
-username=input("Entre the Name:")
+# your name length check
 
-if(len(username)<=8):
-    print("your name is valid",username)
+name=input("Entre tha Your name :")
+g=len(name)
+
+if(len(name)>=10):
+    print("Please Entre your name in 10 word")
+elif(len(name)):
+    print(f"Your name is length is{g}")
 else:
-    print("Your usename is too big")
-    print("Please entre 8 words name")
+    print("Your name is not in word please alphabet")
