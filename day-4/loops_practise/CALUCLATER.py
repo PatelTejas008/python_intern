@@ -27,9 +27,9 @@ while True:
      print(f"{num1} X {num2} = ",num1*num2)
     elif choice==4: 
         if(num2 and num1==0):
-            if(num1==0):
+            if(num1 == 0):
                 print(f"Entre {num1} number is 0\n 0 can't divide any value")
-            elif(num2==0):
+            elif(num2 == 0):
                 print(f"Entre {num2} number is 0\n 0 can't divide any value")
          
         else:

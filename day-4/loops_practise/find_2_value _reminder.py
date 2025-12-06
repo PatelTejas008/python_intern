@@ -1,4 +1,6 @@
-re1=int(input("Entre Which number reminder:"))
+# just for Example 2 & 3 number to which value remindeer find = 6
+
+re1=int(input("Entre Which number reminder:")) # 
 re2=int(input("Entre Which number reminder:"))
 a1={}
 a1["num1"]=re1

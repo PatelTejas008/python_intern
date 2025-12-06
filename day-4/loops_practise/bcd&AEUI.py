@@ -1,10 +1,10 @@
-# li=["a","e","o","i","u"]
+li=["a","e","o","i","u"]
 
-# user=input("Entre the alphabet check :")
-# if(user.lower() in li):
-#     print(f"yes {user} is vovels")
-# else:
-#     print(f"no {user} is not vovels")
+user=input("Entre the alphabet check :").lower()
+if(user.lower() in li):
+    print(f"yes {user} is vovels")
+else:
+    print(f"no {user} is not vovels")
 
 
 for i in range(50):

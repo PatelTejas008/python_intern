@@ -1,36 +1,26 @@
-# user to enter password is correct  or not 
-
-# password="Panda008"
-
-# a=0
-# pas=input("Entre password :")
-# while(pas != password):
-#     print(" You Entred Wrong password: ",pas)
-#     a+=1
-#     if(a>=3):
-#         print("Your today Password Entre limit is over  ")
-#         exit()
-
-    
-#     pas=input("Entre password Corret Password:")
-
-
-# print("You Entred Right password")
+#user Entre password if  user Entre password are wrong 3 time than close programe Pass
 
 password = "Panda008"
-
 a = 0
 
-pas = input("Enter password: ")
-while pas != password:
-    print("You Entered Wrong Password:", pas)
-    a += 1
-
-    pas = input("Enter Correct Password: ")
-    if a >= 3:
-        print("Your password entry limit for today is over!")
+while a<3:
+    pas = input("Enter password: ")
+    if(pas==password):
+        print("You Entered Right Password:", pas)
+        print("You are Entre your Device")
         break
-        exit()
+
+    else:
+        print("You Entered Wrong Password:")
+        if(a==2):
+            print("You are 3 Time Entred Wrong Password")
+        a+=1
+
+    # pas = input(" Please Enter Correct Password: ")
+    if a >= 3:
+        print("Your password entry limit for today is over")
+        break
+        
     
 
 
