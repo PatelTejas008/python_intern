@@ -1,10 +1,11 @@
-# def cv(m):
-#     if (m<=0):
-#         return
-#     print(m)
-#     cv(m-1)
+def cv(m):
+    if (m<=0):
+        return
+    print(m)
+    cv(m-1)
 
-# cv(5)
+cv(5)
+print("\n")
 
 
 #that print 1 to define value print
@@ -20,4 +21,5 @@ def sum(a,b):
     print(a+b)
     return(a+b)
 
+print("\n")
 sum(1,5)

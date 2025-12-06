@@ -7,7 +7,7 @@ def cot(lit):
     for i in lt:
         if(i&2==0):
             count+=1
-        print(f"In list total {count} numbers are Even")
+    print(f"In list total {count} numbers are Even")
         
     return count
 

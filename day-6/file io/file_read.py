@@ -1,0 +1,13 @@
+f=open("panda.txt")
+# data=f.read()
+
+da1=f.readline()
+da2=f.readline()
+da3=f.readline()
+da4=f.readline()
+da5=f.readline()
+da6=f.readline()
+# =f.readline()
+print(da1,da2,da3,da4,da5,da6)
+# print(data)
+f.close()
