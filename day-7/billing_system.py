@@ -19,7 +19,7 @@ while True:
     total_items.add(item)
 
     again_add=input("Entre the YES or NO to Add more value :").lower()
-    if again_add == "no":
+    if again_add == "no" or "n":
         break
     # total_item+=item
  
@@ -29,5 +29,5 @@ while True:
 print(f"your Item count {len(total_item)} ")
 print(f"your Item is {(total_items)} ")
 print(f"your item price is  {bill} ")
-print(f"your discount is {discount} ")
+print(f"your discount is {discount}% ")
 print(f"your PAY amount is {Total_bill} ")

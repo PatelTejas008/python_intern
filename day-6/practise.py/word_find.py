@@ -1,12 +1,16 @@
 with open(r"C:\Users\B A P S\Desktop\python_intern\day-6\practise.py\jadu1.txt","r")as f:
     l=f.read()
-    if(l.find("panda") != -1):
-        print('yes kill is write in file')
+    if(l.find("panda") == -1):
+        print("no word is  not write in file")
     else:
-        print("no  kill is  not write in file")
+        print('yes word is write in file')
 
     
 
-# with open(r"C:\Users\B A P S\Desktop\python_intern\day-6\practise.py\jadu1.txt","a"):
-#     f.write(haha)
-
+f=open(r"C:\Users\B A P S\Desktop\python_intern\day-6\practise.py\jadu1.txt")
+word=f.read()
+if("panda" in word):
+    print("Yes Panda word is in Jadu file")
+else:
+    print("no Panda word is in Jadu file")
+f.close()
