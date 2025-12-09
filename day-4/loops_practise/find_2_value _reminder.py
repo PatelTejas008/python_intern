@@ -5,7 +5,7 @@ re2=int(input("Entre Which number reminder:"))
 a1={}
 a1["num1"]=re1
 a1["num2"]=re2
-
+print(a1)
 num=int(input("Entre number you want reminder:"))
 
 for v in a1.values():

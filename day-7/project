@@ -10,7 +10,7 @@ choice=int(input("Option select for Banking service :"))
 if(choice==1):
     print(f"Your Balance is :{Balance}")
 elif(choice==2):
-    depo=int(input("Entre the Amount you add in bank: "))
+    depo=int(input("Entre the Amount you add in bank: ")) 
     Balance += depo
     # print(f"Your balance:{Balance}")
     print(f"Your Balance is :{Balance}")
