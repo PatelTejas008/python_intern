@@ -1,6 +1,6 @@
 import random
 
-with open(r"C:\Users\B A P S\Desktop\python_intern\day-6\practise.py\hidhscores.txt",)as f:
+with open(r"C:\Users\B A P S\Desktop\python_intern\day-6\practise.py\highscore.txt",)as f:
     score=random.randint(1,100)
     high=f.read()
     if (high!=""):
@@ -11,7 +11,7 @@ with open(r"C:\Users\B A P S\Desktop\python_intern\day-6\practise.py\hidhscores.
     print(f"Your score :{score}")
 
     if score>high:
-        with open(r"C:\Users\B A P S\Desktop\python_intern\day-6\practise.py\hidhscores.txt","w") as f:
+        with open(r"C:\Users\B A P S\Desktop\python_intern\day-6\practise.py\highscore.txt","w") as f:
             f.write(str(score))
 
 # return score
