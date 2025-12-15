@@ -15,7 +15,9 @@ def bj(j,v):
     print(j)
     bj(j+1,v) # recall function then two arugument define
 
-bj(1,50)
+start=(int(input("Entre the number you want to Start value :")))
+end=(int(input("Entre the number you want to End value :")))
+bj(start,end)
 
 def sum(a,b):
     print(a+b)

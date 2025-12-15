@@ -16,6 +16,3 @@ for i in range(n-2,0,-1):  # i (n-2=3,0,-1)
     print()
 
 
-
-# for i in range(1,5):
-#     print("@")

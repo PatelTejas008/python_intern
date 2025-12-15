@@ -13,5 +13,3 @@ with open(r"C:\Users\B A P S\Desktop\python_intern\day-6\practise.py\highscore.t
     if score>high:
         with open(r"C:\Users\B A P S\Desktop\python_intern\day-6\practise.py\highscore.txt","w") as f:
             f.write(str(score))
-
-# return score
